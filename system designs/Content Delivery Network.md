@@ -1,0 +1,3 @@
+- network of geographically dispersed servers to decrease latency
+- used to deliver static contenct ( dynamic content is new )
+- CDN may perform a protection against attacks

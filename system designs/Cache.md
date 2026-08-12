@@ -1,0 +1,12 @@
+- temporary storage area that stores the result of expensive or frequentely acessed data
+	- cache tier is much faster than the database
+	- reduces database worload
+- having the cache tier allows you to scale it independently 
+- consider using it when:
+	- data is read frequently but modified infrequently
+	- data is stored in volatile memory
+- expiration policy is a good practice
+- consistency - data in cache must be sync with data store
+- single cache server represents a optential single point of failure (SPOF)
+- overprovision the required memory
+- eviction policy in cache - LRU, LFU, FIFO
