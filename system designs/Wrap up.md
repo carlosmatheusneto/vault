@@ -1,0 +1,8 @@
+- 3-5 minutes 
+- interviewer might ask you a few follow-up questions or give freedom to discuss other additional points
+	- identify system bottlenecks and discuss potential improvements
+	- maybe give a recap of our design, especially if you have suggested a few solutions
+	- talk about error cases (server failure, network loss)
+	- operation issues. How to monitor metrics and logs? how to roll out the system.
+	- how to handle the next scale curve
+	- propose other refinements 

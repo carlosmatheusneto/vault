@@ -1,0 +1,6 @@
+- 10 - 15 minutes
+- Come up with a initial blueprint and ask for feedback. 
+- Treat your interviewer as a teammate and work together.
+- Draw box diagrams and show your ideas.
+- Try to go through few concrete cases
+- 

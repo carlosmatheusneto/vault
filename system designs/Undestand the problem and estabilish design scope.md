@@ -1,0 +1,6 @@
+- 3 - 10 minutes
+- do not try to answer quickly
+- they expect you to do the right questions, make proper assumptions and gather all information needed to build the system
+- [[Common questions for establishing scope design]]
+- 
+- 

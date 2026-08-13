@@ -1,0 +1,8 @@
+- What specific features are we going to build?
+- How many users does the product have?
+- How fast the company anticipate to scale up? What are the anticipated scales in 3 months, 6 months, and a year?
+- What is the company’s technology stack? What existing services you might leverage to simplify the design?
+- Is this a mobile app? web app? or both?
+- What's the most important features of the product?
+- What's traffic volume?
+- Should we include API endpoints here?
