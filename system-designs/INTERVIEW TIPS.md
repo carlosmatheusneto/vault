@@ -1,4 +1,4 @@
-[[INICIO]]
+[[Inicio]]
 
 [[Back-Of-The-Envelope Estimation]]
 - Rounding and approximation : Do not try to perform 12412/98. Round it to 10000/100
