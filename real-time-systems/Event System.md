@@ -1,0 +1,1 @@
+This event is connected directly to another peripheral by an internal line
