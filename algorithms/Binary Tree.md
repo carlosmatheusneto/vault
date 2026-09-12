@@ -108,62 +108,10 @@ void levelOrder(nodeT *root){
 }
 ```
 
-# Algorithms (?)
-## Size of a Binary Tree
-- The expected approach is using recursion [[Depth First Search]], but you can use [[Depth First Search]]
+# Algorithms
+## [[Size of a Binary Tree]]
+## [[Depth of a Binary Tree]]
+## [[Maximum width of a Binary Tree]]
+## [[Balanced Binary Tree or Not]]
 
-```cpp
-int numberOfNodes(nodeT *root){
-	if(root == nullptr){
-		return 0;
-	}
-	int l = numberOfNodes(root->left);
-	int r = numberOfNodes(root->right);
-	return 1+l+r;
-}
-```
-
-## Depth of a Binary Tree
-- Depth = length of the longest path from the root down to the deepest node
-- The expected solution is using recursion [[Depth First Search]]
-
-```cpp
-int height(nodeT *root){
-	if(root == nullptr){
-		return -1; //edge convention 
-	}
-	return max(height(root->left), height(root->right)) + 1;
-}
-```
-
-## Maximum width of a Binary Tree
-- Maximum width = maximum number of nodes at any level of the tree
-
-```cpp
-int maxWidth(nodeT *root){
-	if(root == nullptr){
-		return 0;
-	}
-	queue<nodeT*> q;
-	q.push(root);
-	int ans = 0;
-	while(!.empty()){
-		int count = q.size();
-		ans = max(ans, cout);
-		while(count > 0){
-			nodeT *current = q.front();
-			q.pop();
-			if(current->left != nullptr){
-				q.push(current->left);
-			}
-			if(current->right != nullptr){
-				q.push(current->right);
-			}
-		}
-	}
-	return ans;
-}
-```
-
-## Balanced Binary Tree or Not
-
+## [[Symmetric Tree]]
